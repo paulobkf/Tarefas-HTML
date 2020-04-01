@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: medium;
+}
+
+p.contato{
+    color: blue;
+}
+strong{
+    color: blueviolet;
+    background-color: orange;
+}
+p.rodape{
+    border-bottom: 1px solid black;
+}
+div.image{
+    background-image: url(Imagens/IMT.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cornsilk;
+}
