@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Imagens">
+    <title>Atividade Bootstrap</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="css/Imagens/IMT.jpg" style="width: 150px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button> 
+     
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="professores.html">Professores</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Sugestoes.html">Sugestões</a>
+            </li>
+
+             </ul>
+            
+            <li class="btn-group dropleft">
+                <a href="#" class="dropdown-toggle"  data-toggle="dropdown" ><b>Login</b></a>
+            <ul id="login-dp" class="dropdown-menu">
+                <li>
+                    <div class="row ">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="sr-only"  for="ExemploEmail">Email</label>
+                                    <input type="email" class="form-control" id="ExemploSenha" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="ExemploSenha">Senha</label>
+                                    <input type="senha" class="form-control" id="ExemploSenha" placeholder="Senha" required>
+                                    <div class="help-block text-right"><a href="">Esqueceu a senha?</a></div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="Entrar" class="btn btn-primary btn-block">Entrar</button>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                    <input type="checkbox"> Manter-me Logado
+                                    </label>
+                                </div>
+                                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                       
+                                </form>
+                            </div>
+                    </div>
+                </li>
+           
+            </ul>
+            </li>
+           
+    
+        
+        </div>
+    </nav>
+
+    <ol class="breadcrumb">
+        <li class="breadcrump-item"><a href="index.html">Home</a>/</li>
+        <li class="breadcrump-item"><a href="Sugestoes.html">Sugestões</a></li>
+    </ol>
+
+    <div class="container">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="Nome">Digite seu Nome</label>
+                <input type="Nome" class="form-control" id="nome" placeholder="Nome">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="Email">Digite seu Email</label>
+                <input type="Email" class="form-control" id="Email" placeholder="Email">
+              </div>
+              <div class="form-group col-md-12">
+                <label for="exampleFormControlTextarea1">Digite alguma sugestão para a gente!</label>
+                <textarea class="form-control" id="Sugestão" rows="6"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="inputState">Você é um aluno matriculado?</label>
+                    <select id="inputState" class="form-control">
+                    <option>Sim</option>
+                     <option>Não</option>
+                    </select>
+              </div> 
+               
+             <div class="form-group col-md-12">
+             <button type="Enviar" class="btn btn-primary my-1">Enviar</button> </div>
+            </form>
